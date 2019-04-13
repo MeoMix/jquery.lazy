@@ -468,7 +468,7 @@
                 // bind after load callback to image
                 .one(_load, function() {
                     // remove element from view
-                    element.hide();
+                    // element.hide();
 
                     // set image back to element
                     // do it as single 'attr' calls, to be sure 'src' is set after 'srcset'
@@ -482,7 +482,7 @@
                     }
 
                     // bring it back with some effect!
-                    element[config.effect](config.effectTime);
+                    // element[config.effect](config.effectTime);
 
                     // remove attribute from element
                     if (removeAttribute) {
